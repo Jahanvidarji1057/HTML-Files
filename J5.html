@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collage Registration Form</title>
+</head>
+    <style>
+        body{
+            background-color: white;
+        }
+        h1{
+            color: black;
+            text-align: center;
+        }
+        form{  
+            background-color: darksalmon;
+            margin: auto;
+            width: 60%;
+            padding: 20px;
+        }
+        Register{
+            text-align: center;
+        }
+    </style>
+    <body>
+        <form>
+        <h1> STUDENT REGISTRATION FORM</h1>
+        <div class="ROLL NO">
+            ROLL NO : <input type="text">
+        </div>
+        <br/>
+        <div class="name">
+            STUDENT NAME : <input type="text" placeholder="FRRST NAME">-<input type="text" placeholder="LAST NAME">
+        </div>
+        <br/>
+        <div class="FATHER's NAME">
+            FATHER'S NAME : <input type="text">
+        </div>
+        <br/>
+        <div class="DATE OF BIRTH">
+            DATE OF BIRTH : <input type="text" placeholder="Day"> -<input type="text" placeholder="Month"> -<input type="text" placeholder="Year">
+        </div>
+        <br/>
+        <div class="MOBILE NO">
+            MOBILE NO : <input type="text" placeholder="+91">-<input type="text">
+        </div>
+        <br/>
+        <div class="EMAIL ID">
+            EMAIL ID : <input type="text">
+        </div>
+        <br/>
+        <div class="PASSWORD">
+            PASSWORD : <input type="password">
+        </div>
+        <br/>
+        <div class="GENDER">
+            GENDER : <input type="radio">MALE
+                     <input type="radio">FEMALE
+        </div>
+        <br/>
+        <br>
+        <div class="DEPARTMENET">
+            DEPARTMENET : 
+            <label for="CSE">
+                <input type="checkbox">CSE
+            </label>
+            <label for="IT">
+                <input type="checkbox">IT
+            </label>
+            <label for="ECE">
+                <input type="checkbox">ECE
+            </label>
+            <label for="CIVIL">
+                <input type="checkbox">CIVIL
+            </label>
+            <label for="MECH">
+                <input type="checkbox">MECH
+            </label>
+        </div>
+            <br/>
+            <br>
+             COURSE : <select name="--------------------SELECT COURSE NAME--------------------" aria-rowcount="4">
+                <option>----------------------------------------SELECT COURSE NAME---------------------------------------</option>
+                <option>BCA</option>
+                <option>B.COM</option>
+                <option>BBA</option>
+                <option>BA</option>
+            </select>
+            <br/>
+            <br>
+        <div class="STUDENT PHOTO">
+             STUDENT PHOTO : <input type="file" id="Profile pic" name="Profile pic"  
+        </div>
+        <br/>
+        <br>
+        <div class="CITY">
+            CITY : <input type="text">
+        </div>
+        <br/>
+        <div class="ADDRESS">
+            ADDRESS : <textarea name="ADDRESS"></textarea>
+        </div>
+        <br/>
+            <!--Register-->   <input type="submit" value="Register">
+    </form>
+    </body>
+</html>
